@@ -151,7 +151,7 @@ export const routes: Routes = [
       },
       {
         path: 'angular',
-        canActivate: [AdminGuard],
+        /* canActivate: [AdminGuard], */
         children: [
           {
             path: 'contact',
